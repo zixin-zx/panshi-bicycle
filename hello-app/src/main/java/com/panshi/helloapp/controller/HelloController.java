@@ -12,8 +12,12 @@ public class HelloController {
         return "hello,"+name;
     }
 
+    /**
+     * 测试
+     * @return
+     */
     @RequestMapping("/hello")
     public String hello(){
-        return "hello world,test";
+        return "hello world,test22222";
     }
 }
